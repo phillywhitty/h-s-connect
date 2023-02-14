@@ -213,5 +213,21 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    
+
+}
+
+#zoom-calls div {
+    background-color:rgba(61, 159, 250, 0.4);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+
+}
+
+#zoom-calls h2 {
+    color: #252525;
 }
