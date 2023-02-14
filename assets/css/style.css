@@ -111,7 +111,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(61, 159, 250, 0.897);
 
     bottom: 30px;
     right: 150px;
@@ -159,7 +159,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading {
+#right-about-heading {
 
     width:60%;
     float: left;
@@ -170,11 +170,11 @@ hr {
 
 }
 
-.right-about-heading h2 {
+#right-about-heading  h2 {
     text-align: right;
 }
 
-.right-about-heading p {
+#right-about-heading  p {
     text-align: right;
 }
 
@@ -186,8 +186,8 @@ hr {
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -198,17 +198,10 @@ hr {
 }
 
 #circle-cover-bg {
-
-    width: 300px;
-    height: 300px;
-
-    background-image: url("../images/Untitled\ \(300\ ×\ 300\ px\).png");
+    background-image: url(../images/Untitled\ design\ \(1\).png);
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
     border-radius: 50%;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+    
 }
